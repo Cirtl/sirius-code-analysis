@@ -6,14 +6,14 @@
 title: Cirtl
 subtitle: ''
 description: ''
-keywords:
+keywords: Sirius
 author: Jiaji Tian
 language: en
 timezone: ''
 
 # URL
 ## Set your site url here. For example, if you use GitHub Page, set url as 'https://username.github.io/project'
-url: http://example.com
+url: https://blog.cirtl.top/
 permalink: :year/:month/:day/:title/
 permalink_defaults:
 pretty_urls:
@@ -31,7 +31,7 @@ i18n_dir: :lang
 skip_render:
 
 # Writing
-new_post_name: :title.md # File name of new posts
+new_post_name: :year-:month-:day-:title.md # File name of new posts
 default_layout: post
 titlecase: false # Transform title into titlecase
 external_link:
@@ -40,7 +40,7 @@ external_link:
   exclude: ''
 filename_case: 0
 render_drafts: false
-post_asset_folder: false
+post_asset_folder: true
 relative_link: false
 future: true
 highlight:
@@ -55,6 +55,9 @@ prismjs:
   preprocess: true
   line_number: true
   tab_replace: ''
+marked:
+    prependRoot: true
+    postAsset: true
 
 # Home page setting
 # path: Root path for your blogs index page. (default = '')
@@ -102,4 +105,4 @@ theme: landscape
 # Deployment
 ## Docs: https://hexo.io/docs/one-command-deployment
 deploy:
-  type: ''
+    type: ''
