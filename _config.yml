@@ -56,8 +56,8 @@ prismjs:
   line_number: true
   tab_replace: ''
 marked:
-    prependRoot: true
-    postAsset: true
+  prependRoot: true
+  postAsset: true
 
 # Home page setting
 # path: Root path for your blogs index page. (default = '')
